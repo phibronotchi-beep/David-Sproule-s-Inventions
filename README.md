@@ -5,7 +5,7 @@ My Novel Inventions I am working on.
 
 **Document Creation Date: January 02, 2026**  
 **Inventor: David Sproule (@Phibronotchi on X)**  
-**Purpose**: This unified document serves as a comprehensive archive of my original inventions—Phyllotactic Neural Meshing (PNM), Golden-Angle Fractal Antenna Array (GAFAA), and PhiKey (Geometric Lattice Security Protocol). It establishes my ownership through timestamps, prior art disclosures, and detailed development records. Designed for quick upload to GitHub as a README.md or PDF, it includes concepts, theories, designs, math derivations, code snippets, fabrication instructions, testing protocols, patent strategies, and gifting plans. These inventions stem from my independent research into biomimetic patterns (inspired by nature's golden-angle spirals and fractal scaling), aimed at advancing brain interfaces, communications, and security for humanity's benefit. No prior art matches found in searches (USPTO, Google Patents, Espacenet as of Jan 02, 2026).  
+**Purpose**: This unified document serves as a comprehensive archive of my original inventions—Phyllotactic Neural Meshing (PNM), Golden-Angle Fractal Antenna Array (GAFAA), and PhiKey (Golden Lattice Security Protocol). It establishes my ownership through timestamps, prior art disclosures, and detailed development records. Designed for quick upload to GitHub as a README.md or PDF, it includes concepts, theories, designs, math derivations, code snippets, fabrication instructions, testing protocols, patent strategies, and gifting plans. These inventions stem from my independent research into biomimetic patterns (inspired by nature's golden-angle spirals and fractal scaling), aimed at advancing brain interfaces, communications, and security for humanity's benefit. No prior art matches found in searches (USPTO, Google Patents, Espacenet as of Jan 02, 2026).  
 
 **Ownership Proof & Prior Art Establishment**:  
 - **Conception Timestamps**: PNM – December 2025; GAFAA – December 2025; PhiKey – January 2026 (this doc serves as dated record).  
@@ -119,8 +119,8 @@ print("Array Factor Example:", AF)
 
 ---
 
-### **Invention 3: GeoKey (Geometric Lattice Security Protocol) – Quantum-Resistant Encryption**  
-🚀 **Overview & Theory**: GeoKey generates unbreakable keys using golden-angle lattices and fractals, creating predictable-yet-random sequences for IT/security. Theory: Phyllotactic patterns (irrational spacing) produce self-similar keys resistant to quantum attacks (e.g., Shor's algorithm). Inspired by nature's efficiency, enables multi-level security with φ^n harmonics. Applications: Secure networks, neural data protection.  
+### **Invention 3: PhiKey (Golden Lattice Security Protocol) – Quantum-Resistant Encryption**  
+🚀 **Overview & Theory**: PhiKey generates unbreakable keys using golden-angle lattices and fractals, creating predictable-yet-random sequences for IT/security. Theory: Phyllotactic patterns (irrational spacing) produce self-similar keys resistant to quantum attacks (e.g., Shor's algorithm). Inspired by nature's efficiency, enables multi-level security with φ^n harmonics. Applications: Secure networks, neural data protection.  
 
 🧮 **Mathematical Foundations**:  
 - Lattice: r_n = k √n, θ_n = n * 137.5° mod 360°. Hash sequences for keys. Rejection H(θ) = ∏ (1 - exp(j 2π d_m sinθ / λ)).  
@@ -138,7 +138,7 @@ print("Array Factor Example:", AF)
 import numpy as np
 import hashlib
 
-def geokey(N=121, seed=''):
+def phikey(N=121, seed=''):
     phi = (1 + np.sqrt(5)) / 2
     theta = np.arange(1, N+1) * (360 / phi) % 360
     r = np.sqrt(np.arange(1, N+1))
@@ -146,10 +146,10 @@ def geokey(N=121, seed=''):
     hash_input = points + seed
     return hashlib.sha256(hash_input.encode()).hexdigest()
 
-key = geokey()
-print("GeoKey Example:", key)
+key = phikey()
+print("PhiKey Example:", key)
 ```
-- Repo: "GeoKey-Invention" – upload code/specs.  
+- Repo: "PhiKey-Invention" – upload code/specs.  
 
 **Patent Roadmap**: Provisional ($150), utility ($10K). Claims: Protocol with phyllotactic keys; system for fractal security.  
 
@@ -171,7 +171,7 @@ print("GeoKey Example:", key)
 - **Contact**: Emails/X posts (drafts above).  
 - **Gains**: Recognition, partnerships.  
 
-### **GeoKey Licensing Roadmap (Sustain Life – Ongoing)**  
+### **PhiKey Licensing Roadmap (Sustain Life – Ongoing)**  
 🌟 **Goal**: Fair balance – free for good, royalties for security.  
 - **Approach**: Offer free to non-profits; negotiate with firms (e.g., cybersecurity companies).  
 - **Gains**: Income for stability, wider adoption.  
