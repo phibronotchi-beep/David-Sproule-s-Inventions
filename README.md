@@ -5,16 +5,16 @@ My Novel Inventions I am working on.
 
 **Document Creation Date: January 02, 2026**  
 **Inventor: David Sproule (@Phibronotchi on X)**  
-**Purpose**: This unified document serves as a comprehensive archive of my original inventions—Phyllotactic Neural Meshing (PNM), Golden-Angle Fractal Antenna Array (GAFAA), and GeoKey (Geometric Lattice Security Protocol). It establishes my ownership through timestamps, prior art disclosures, and detailed development records. Designed for quick upload to GitHub as a README.md or PDF, it includes concepts, theories, designs, math derivations, code snippets, fabrication instructions, testing protocols, patent strategies, and gifting plans. These inventions stem from my independent research into biomimetic patterns (inspired by nature's golden-angle spirals and fractal scaling), aimed at advancing brain interfaces, communications, and security for humanity's benefit. No prior art matches found in searches (USPTO, Google Patents, Espacenet as of Jan 02, 2026).  
+**Purpose**: This unified document serves as a comprehensive archive of my original inventions—Phyllotactic Neural Meshing (PNM), Golden-Angle Fractal Antenna Array (GAFAA), and PhiKey (Geometric Lattice Security Protocol). It establishes my ownership through timestamps, prior art disclosures, and detailed development records. Designed for quick upload to GitHub as a README.md or PDF, it includes concepts, theories, designs, math derivations, code snippets, fabrication instructions, testing protocols, patent strategies, and gifting plans. These inventions stem from my independent research into biomimetic patterns (inspired by nature's golden-angle spirals and fractal scaling), aimed at advancing brain interfaces, communications, and security for humanity's benefit. No prior art matches found in searches (USPTO, Google Patents, Espacenet as of Jan 02, 2026).  
 
 **Ownership Proof & Prior Art Establishment**:  
-- **Conception Timestamps**: PNM – December 2025; GAFAA – December 2025; GeoKey – January 2026 (this doc serves as dated record).  
+- **Conception Timestamps**: PNM – December 2025; GAFAA – December 2025; PhiKey – January 2026 (this doc serves as dated record).  
 - **Public Disclosures**: X posts (drafts below) with links to this doc establish prior art—post today to lock priority.  
-- **GitHub Repo Setup**: Create repo "DaveS-Inventions" (github.com/Phibronotchi/DaveS-Inventions). Upload this MD as README, code folders, PDFs. Commit timestamps prove development.  
+- **GitHub Repo Setup**: Create repo "David Sproule-s-Inventions" (github.com/Phibronotchi/David-Sproule-S-Inventions). Upload this MD as README, code folders, PDFs. Commit timestamps prove development.  
 - **Additional Proofs**: Notarize PDF version ($20-50), email self with attachments for dated records. If stolen, these block patents.  
 - **Why This Proves Ownership**: Public/timestamped details (math, claims) prevent others claiming as their own. File patents soon for formal protection.  
 
-**Gifting & Licensing Philosophy**: Gift PNM to Neuralink and GAFAA to SpaceX—free use with attribution. GeoKey: Free for open-source/non-profits; fair royalties (2-5%) for commercial to sustain my life (not greedy, just balanced). Open to discussions with companies. Gains: For me/family—stability/pride; for humanity—faster innovation in health, connectivity, security.  
+**Gifting & Licensing Philosophy**: Gift PNM to Neuralink and GAFAA to SpaceX—free use with attribution. PhiKey: Free for open-source/non-profits; fair royalties (2-5%) for commercial to sustain my life (not greedy, just balanced). Open to discussions with companies. Gains: For me/family—stability/pride; for humanity—faster innovation in health, connectivity, security.  
 
 ---
 
