@@ -1,4 +1,4 @@
-# GeoKey (Geometric Sovereignty Key Protocol)
+# PhiKey (Geometric Sovereignty Key Protocol)
 
 Quantum-resistant encryption. See root README.
 
