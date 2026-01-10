@@ -80,10 +80,6 @@ This constitutes **defensive publication** under patent law (e.g., 35 U.S.C. § 
 
 **Note on Patent Rights:** This public disclosure creates strong prior art that blocks others from obtaining patents on the same ideas. The inventor is actively pursuing formal patent protection (e.g., provisional or non-provisional applications) to secure exclusive rights for licensing, exclusivity, or enforcement against infringers.
 
-## 6. Next Steps for Formal Protection (Recommended)
-- File Provisional Patent Applications (PPAs) with USPTO (~$75 each as micro entity) using the whitepapers and code from this repo.  
-- Add "Patent Pending" to repo README once filed.  
-- Consider consulting a patent attorney for full applications and international protection (PCT).
 
 This file will be updated with any new public disclosures, commit hashes, or USPTO filing numbers.  
 **David Edward Sproule** – Inventor  
