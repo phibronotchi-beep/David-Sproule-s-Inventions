@@ -34,6 +34,9 @@ These X posts provide additional public timestamped proof of disclosure on Janua
 - Original Neuralink gift post (earliest mention):  
   https://x.com/Phibronotchi/status/2006253959212933425  
 
+- Shared on FaceBook
+  https://www.facebook.com/share/p/17dqkU8d3Z/
+
 These posts link directly to the repo and describe the inventions, further proving public availability on/around January 02, 2026.
 
 ## 4. Inventions & Direct Links (Proof of Public Disclosure)
