@@ -140,3 +140,9 @@ What exists here is incomplete, exploratory, and imperfect. It is also sincere. 
 I am not pursuing patents, ownership, or commercial exclusivity. All material in this repository—notes, diagrams, concepts, and partial implementations—is offered freely. Individuals, research groups, startups, and institutions are welcome to adopt, modify, formalize, discard, or build upon it in any way they see fit.
 If this work becomes useful, validated, or transformed into something durable, that is success enough. Credit is appreciated but not required. Progress matters more than authorship.
 This repository now waits—not abandoned, but available.**
+
+**An Open Invitation**
+
+If you are a practitioner with the tools to test these ideas rigorously—through simulation, fabrication, peer review, or real-world deployment—you are encouraged to treat this repository as raw material.
+Fork it. Refactor it. Prove it wrong. Prove parts of it right. Translate it into equations, prototypes, or products. Let it intersect with disciplines I could only gesture toward.
+My role ends here. The work’s trajectory does not.
