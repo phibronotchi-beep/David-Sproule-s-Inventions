@@ -1,226 +1,52 @@
-# Technical Invention Disclosure
+# Invention Disclosure (High-Level Summary)
 
-**Inventor:** David Edward Sproule  
-**Location:** Edmonton, Alberta, Canada  
-**Email:** phibronotchi@gmail.com  
-**Date of First Disclosure:** January 2, 2025  
-**Repository:** https://github.com/phibronotchi-beep/biomimetic-inventions-public
+> This disclosure is drafted in the style of an internal invention report. It is intentionally high level and should not be regarded as a complete patent specification or legal opinion.
 
----
+## Inventor
 
-## Table of Contents
+- **Name:** David Edward Sproule  
+- **Location:** Edmonton, Alberta, Canada
 
-1. [PNM - Phyllotactic Neural Meshing](#pnm---phyllotactic-neural-meshing)
-2. [GAFAA - Golden-Angle Fractal Antenna Arrays](#gafaa---golden-angle-fractal-antenna-arrays)
-3. [PhiKey - Geometric Security Protocol](#phikey---geometric-security-protocol)
+## Working Title
 
----
+Phyllux Biomimetic Phyllotactic Architectures for Antennas, Neural Interfaces, Geometric Cryptography, and Integrated Systems
 
-# PNM - Phyllotactic Neural Meshing
+## Problem and Motivation (Summary)
 
-## Title
-Biomimetic Neural Electrode Array Using Phyllotactic Patterns for Reduced Crosstalk and Enhanced Signal Quality
+1. **Neural Interfaces:**  
+   - Existing electrode arrays may face challenges related to crosstalk, tissue response, and long-term stability.
 
-## Technical Field
-Neural interface systems, specifically spatial arrangement of electrodes in brain-computer interface (BCI) devices, neural recording arrays, and deep brain stimulation systems using phyllot axis (plant leaf/seed arrangement patterns).
+2. **Antenna Arrays:**  
+   - Conventional grids can exhibit undesirable sidelobes and mutual coupling in dense arrays.
 
-## Background
+3. **Cryptography:**  
+   - Many schemes rely solely on algebraic structures and do not tie keys to physical geometries or layouts.
 
-Current neural electrode arrays face limitations:
-- **Crosstalk Interference:** Adjacent electrodes pick up signals from the same neurons
-- **Signal Quality Degradation:** Regular grid patterns create constructive interference
-- **Coverage Inefficiency:** Uniform spacing leaves gaps while over-sampling certain regions
-- **Scalability Limits:** Adding more electrodes increases interference exponentially
+4. **System Integration:**  
+   - Combining sensing, wireless, and security layers is often done piecemeal rather than via a single unifying design principle.
 
-## Summary of the Invention
+## Proposed Concept
 
-PNM arranges neural electrodes according to phyllotactic spiral patterns using the golden angle (≈137.508°), achieving:
-- **30-50% crosstalk reduction** compared to grid arrays
-- **Optimized signal sampling** through quasi-random distribution
-- **Scalability** from 16 to 1000+ electrodes
-- **Manufacturability** through algorithmic position generation
+Use **phyllotactic geometries**—particularly golden-angle spirals with 121-node (or similar) layouts and position-index anchors—as a **shared blueprint** across these domains:
 
-## Detailed Description
+- PNM: phyllotactic electrode meshes.  
+- GAFAA / PhiWave: phyllotactic antenna arrays.  
+- PhiKey: geometric keying based partly on indices derived from the geometry.  
+- IBS / PhiNexus: an integrated architecture that uses the same geometry across neural, RF, and crypto layers.
 
-### Mathematical Foundation
+The key idea is not simply that spirals exist in each domain, but that **one mathematical pattern is reused deliberately** for co-design.
 
-Electrode positions calculated using:
-```
-r(n) = c × sqrt(n)
-θ(n) = n × φ
+## Status and Validation
 
-Where:
-- n = electrode index (1, 2, 3, ...)
-- φ = golden angle ≈ 137.508° ≈ 2.399963 radians
-- c = scaling constant (0.5-2.0 mm typical)
-```
+- Current materials are primarily **design documents, toy examples, and conceptual simulations**.  
+- No formal clinical trials, regulatory submissions, or cryptographic standards processes have been completed at this stage.  
+- The inventor anticipates future simulation, prototyping, and testing, subject to resources and legal advice.
 
-### Key Technical Parameters
+## Confidentiality and Publication
 
-- Golden Angle: 137.508° (fixed)
-- Electrode Count: 16-1024
-- Electrode Diameter: 50-200 μm
-- Min Inter-electrode Distance: 200-400 μm
+- This file appears in a **public GitHub repository**; therefore, it must be treated as a public disclosure, which can affect patent timelines and strategies.  
+- Certain more detailed embodiments, if any, may be maintained separately and not disclosed here.
 
-### Code Implementation
+Anyone considering reliance on this disclosure for patent, licensing, or freedom-to-operate analyses should obtain professional guidance.
 
-See `/PNM-public/` for Python reference implementation.
-
-### Claims-Style Statements
-
-1. A neural electrode array with electrodes positioned following phyllotactic spiral pattern defined by golden angle
-2. Electrode positions calculated as r = c√n and θ = nφ where φ ≈ 137.508°
-3. Achieves 30-50% crosstalk reduction versus regular grid arrays
-
-**Date of Disclosure:** January 2, 2025  
-**Inventor:** David Edward Sproule, Edmonton, Alberta, Canada
-
----
-
-# GAFAA - Golden-Angle Fractal Antenna Arrays
-
-## Title
-Biomimetic Wireless Antenna Array Using Golden-Angle Phyllotactic Patterns for Enhanced Signal Distribution
-
-## Technical Field
-Wireless communication systems, specifically spatial arrangement of antenna elements in phased arrays, MIMO systems, satellite communications, and 5G/6G networks using phyllotactic patterns and fractal geometry.
-
-## Background
-
-Current antenna array designs face limitations:
-- **Grating Lobes:** Regular spacing creates unwanted radiation lobes
-- **Bandwidth Limitations:** Single-scale patterns optimize for narrow frequency ranges
-- **Mutual Coupling:** Adjacent elements interfere, degrading performance
-- **Large Aperture Requirements:** Wide coverage requires physically large arrays
-
-## Summary of the Invention
-
-GAFAA arranges antenna elements in phyllotactic spiral patterns with optional fractal scaling, achieving:
-- **Grating lobe suppression** (<-20 dB)
-- **Multi-band operation** (40%+ bandwidth)
-- **Reduced mutual coupling**
-- **Compact aperture** with high directivity
-
-## Detailed Description
-
-### Mathematical Foundation
-
-**Basic Phyllotactic Placement:**
-```
-r(n) = c × sqrt(n)
-θ(n) = n × φ
-
-Where φ = golden angle ≈ 137.508°
-```
-
-**Fractal Extension:**
-```
-r(n, s) = c × sqrt(n) × s^k
-Where s = scaling factor, k = fractal level
-```
-
-### Key Technical Parameters
-
-- Golden Angle: 137.508°
-- Element Count: 8-512
-- Scaling Constant: 0.3-0.7 λ
-- Operating Frequency: 2.4-60 GHz
-
-### Code Implementation
-
-See `/golden-angle-antenna-GAFAA-public/` for Python reference implementation.
-
-### Claims-Style Statements
-
-1. An antenna array with elements positioned following phyllotactic spiral pattern
-2. Positions calculated as r = c√n and θ = nφ where φ ≈ 137.508°
-3. Operates across multiple frequency bands with >40% bandwidth
-
-**Date of Disclosure:** January 2, 2025  
-**Inventor:** David Edward Sproule, Edmonton, Alberta, Canada
-
----
-
-# PhiKey - Geometric Security Protocol
-
-## Title
-Quantum-Resistant Cryptographic System Using Golden Ratio Lattice Structures
-
-## Technical Field
-Cryptographic systems, specifically post-quantum encryption methods based on geometric principles using lattice structures derived from the golden ratio.
-
-## Background
-
-Current cryptographic systems face threats:
-- **Quantum Vulnerability:** RSA and ECC will be broken by quantum computers
-- **Lattice-Based Limitations:** Existing schemes may have undiscovered weaknesses
-- **Key Size Inflation:** Post-quantum algorithms require larger keys
-- **Implementation Complexity:** Many schemes are computationally expensive
-
-## Summary of the Invention
-
-PhiKey uses φ-based lattices (φ = 1.618...) and phyllotactic geometry for cryptography with:
-- **Quantum resistance** through novel geometric hard problems
-- **Compact key sizes** (2-4 KB)
-- **Natural unpredictability** from irrational number properties
-- **Scalable security** (128-256 bit equivalent)
-
-## Detailed Description
-
-### Mathematical Foundation
-
-**Golden Ratio Lattice:**
-```
-L = {(x, y) : x, y ∈ ℤ, point = (x + yφ, xφ + yφ²)}
-Where φ = (1 + √5) / 2 ≈ 1.618033988749...
-```
-
-**Phyllotactic Security Pattern:**
-```
-P(n) = (r(n) cos(θ(n)), r(n) sin(θ(n)))
-Where:
-- r(n) = √n mod M
-- θ(n) = n × 137.508°
-```
-
-### Key Technical Parameters
-
-- Security Level: 128-256 bits
-- Lattice Dimension: 2-4 dimensions
-- Key Size: 2-4 KB
-- Golden Angle: 137.508°
-
-### Code Implementation
-
-See `/PhiKey-public/` for Python reference implementation.
-
-### Claims-Style Statements
-
-1. A cryptographic system using lattice structure defined by golden ratio φ
-2. Key generation using secret points within φ-based lattice
-3. Encryption via phyllotactic path traversal with θ(n) = n × (360° / φ²)
-
-**Date of Disclosure:** January 2, 2025  
-**Inventor:** David Edward Sproule, Edmonton, Alberta, Canada
-
----
-
-## Enablement Standard
-
-All disclosures meet the "enablement" requirement for prior art:
-- Person skilled in the art can reproduce the inventions
-- Sufficient detail including formulas, parameters, implementation guidance
-- Working code examples provided in repository
-- Alternative embodiments demonstrate breadth
-
----
-
-**Document Version:** 1.0  
-**Last Updated:** January 13, 2026  
-**Status:** Active public disclosure for prior art establishment
-
-**Inventor Contact:**  
-David Edward Sproule  
-Edmonton, Alberta, Canada  
-Email: phibronotchi@gmail.com  
-GitHub: @phibronotchi-beep / phibronotchi-beep
+**Last Updated:** January 20, 2026
