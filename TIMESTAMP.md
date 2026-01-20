@@ -1,90 +1,33 @@
-# TIMESTAMP.md - Prior Art Establishment & Public Disclosure Record
+# Timing and Disclosure Log – Biomimetic Inventions (Phyllux)
 
-**Repository Name:** biomimetic-inventions-public  
-**Repository URL:** https://github.com/phibronotchi-beep/biomimetic-inventions-public  
-**Inventor:** David Edward Sproule (Edmonton, Alberta, Canada)  
-**Initial Public Disclosure Date:** January 02, 2026 (UTC)  
-**Last Updated:** January 10, 2026  
-**Purpose of this File:** This document serves as a clear, timestamped, verifiable record of public disclosure to establish **prior art** for all inventions in this repository. The content was first made publicly available on GitHub on January 02, 2026, creating a permanent, dated, and accessible record that can be used to demonstrate conception, reduction to practice (via detailed specs, math, code, and simulations), and public availability before any subsequent patent filings or claims by others.
+This file provides a **non-exhaustive timeline** of key activities related to the biomimetic concepts in this repository. It is intended as a convenient record, not as a formal legal instrument.
 
-## 1. Conception Dates (Self-Reported & Documented)
-These are the dates when the core concepts were first conceived and privately documented:
-- **Phyllotactic Neural Meshing (PNM)** — December 2025  
-- **Golden-Angle Fractal Antenna Array (GAFAA)** — December 2025  
-- **PhiKey (Golden Lattice Security Protocol)** — January 2026  
+## Selected Milestones (Illustrative)
 
-All three inventions share a common biomimetic foundation: phyllotactic geometry using the golden angle (≈137.508°) for aperiodic, optimal spacing.
+- **Late 2024 – 2025:**  
+  - Initial concept development for phyllotactic arrays and related components.  
+  - Private notes, simulations, and prototypes not necessarily captured here.
 
-## 2. Public Disclosure & Prior Art Lock
-- **Repository Created & Set Public:** January 02, 2026 (UTC)  
-- **First Commit (Initial Disclosure):** January 02, 2026  
-  - GitHub commit hash (first commit): Use the actual hash from your repo history (visible after upload/commit)  
-  - This is the earliest verifiable public timestamp via GitHub's immutable commit log.  
-- **All files, folders, code, docs, images, and whitepapers** were uploaded and made visible to the public on this date.  
-- **Repository Visibility:** Public from creation – anyone can access, view, download, or fork at any time.
+- **Early 2025 / 2026:**  
+  - First public descriptions of the concepts via social media posts and GitHub commits.  
+  - Creation and population of this repository with conceptual demos and documents.
 
-## 3. X (Twitter) Corroboration & Announcements
-These X posts provide additional public timestamped proof of disclosure on January 02, 2026 (or very close):
-- Main repo announcement & overview of inventions:  
-  https://x.com/Phibronotchi/status/2007241337998045437  
-- GAFAA gift announcement to SpaceX/Starlink:  
-  https://x.com/Phibronotchi/status/2006261116725584274  
-- PNM gift announcement & deep dive to Neuralink:  
-  https://x.com/Phibronotchi/status/2006255686200746051  
-- Original Neuralink gift post (earliest mention):  
-  https://x.com/Phibronotchi/status/2006253959212933425  
+- **January 2026:**  
+  - Consolidation of documents under the **Phyllux** brand.  
+  - Introduction of prior-art and patent-consideration files (`PRIOR_ART.md`, `PATENTS.md`, etc.).  
+  - Active work on patent strategy and funding plans in separate IP-focused documents.
 
-- Shared on FaceBook
-  https://www.facebook.com/share/p/17dqkU8d3Z/
+*Exact dates and legal effects of each disclosure depend on jurisdiction, repository history, and other factors outside the scope of this file.*
 
-These posts link directly to the repo and describe the inventions, further proving public availability on/around January 02, 2026.
+## Purpose of This File
 
-## 4. Inventions & Direct Links (Proof of Public Disclosure)
-All documents, code, images, whitepapers, and specifications are publicly accessible under these paths:
+- To help the inventor and collaborators keep track of **rough timing** for key events.  
+- To support conversations with patent counsel by providing a starting point for reconstructing disclosure history.  
+- To remind readers that this repository is not a static snapshot: documents evolve over time.
 
-- **Full Repository Root (Main Proof):**  
-  https://github.com/phibronotchi-beep/biomimetic-inventions-public  
+## Limitations
 
-- **Phyllotactic Neural Meshing (PNM)**  
-  - Folder: https://github.com/phibronotchi-beep/biomimetic-inventions-public/tree/main/PNM  
-  - Whitepaper: https://github.com/phibronotchi-beep/biomimetic-inventions-public/blob/main/PNM/docs/PNM_Whitepaper.md  
-  - Code & Simulations: https://github.com/phibronotchi-beep/biomimetic-inventions-public/blob/main/PNM/code.py  
+- This log may be incomplete, approximate, or superseded by more detailed records (e.g., commit histories, formal docketing systems, or external archives).  
+- It does not determine any legal rights on its own. Only courts and patent offices can determine the final effect of any disclosure.
 
-- **Golden-Angle Fractal Antenna Array (GAFAA)**  
-  - Folder: https://github.com/phibronotchi-beep/biomimetic-inventions-public/tree/main/GAFAA  
-  - Whitepaper: https://github.com/phibronotchi-beep/biomimetic-inventions-public/blob/main/GAFAA/docs/GAFAA_Whitepaper.md  
-  - Code & Simulations: https://github.com/phibronotchi-beep/biomimetic-inventions-public/blob/main/GAFAA/code.py  
-
-- **PhiKey (Golden Lattice Security Protocol)**  
-  - Folder: https://github.com/phibronotchi-beep/biomimetic-inventions-public/tree/main/PhiKey  
-  - Whitepaper: https://github.com/phibronotchi-beep/biomimetic-inventions-public/blob/main/PhiKey/docs/PhiKey_Whitepaper.md  
-  - Code & Simulations: https://github.com/phibronotchi-beep/biomimetic-inventions-public/blob/main/PhiKey/code.py  
-
-- **Unified Ecosystem Document**  
-  - Overview PDF/Markdown: https://github.com/phibronotchi-beep/biomimetic-inventions-public/blob/main/ecosystem.pdf (or ecosystem.md if Markdown version)
-
-## 5. Defensive Prior Art Statement
-All inventions, including but not limited to:
-- The specific golden-angle spiral placement (137.508° rotation)
-- Square-root radial scaling for constant density
-- Hexagonal electrode/patch layouts
-- Fractal multi-scale adaptability
-- Lattice growth algorithms and influence equations
-- One-way hashing integrations
-- Biocompatibility features (micro-pyramids/nanofibers at 137.5 nm)
-- Fault tolerance mechanisms
-
-were first publicly disclosed in this repository on January 02, 2026.
-
-This constitutes **defensive publication** under patent law (e.g., 35 U.S.C. § 102(a)(1) in the US and equivalent provisions worldwide). Any patent application filed after this date that claims substantially similar inventions will be subject to this prior art, which is:
-- Timestamped (GitHub commit log)
-- Publicly accessible (anyone can view/fork/download)
-- Detailed enough to enable a person skilled in the art to understand and replicate the concepts (full enablement via whitepapers, code, math, and simulations)
-
-**Note on Patent Rights:** This public disclosure creates strong prior art that blocks others from obtaining patents on the same ideas. The inventor is actively pursuing formal patent protection (e.g., provisional or non-provisional applications) to secure exclusive rights for licensing, exclusivity, or enforcement against infringers.
-
-
-This file will be updated with any new public disclosures, commit hashes, or USPTO filing numbers.  
-**David Edward Sproule** – Inventor  
-**Edmonton, Alberta, Canada**  
-**January 10, 2026**
+**Last Updated:** January 20, 2026
