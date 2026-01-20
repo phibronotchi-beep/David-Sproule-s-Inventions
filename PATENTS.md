@@ -1,82 +1,36 @@
-# Additional IP Rights Grant (Patents)
+# Patent Considerations – Biomimetic Inventions (Phyllux)
 
-## Patent License Grant
+> This document is **informational only**. It does not constitute legal advice and should not be relied upon as such. Any final patent strategy must be reviewed with qualified counsel.
 
-"This implementation" means the copyrightable works and source code distributed by David Edward Sproule as part of the biomimetic-inventions-public project, including PNM, GAFAA, and PhiKey technologies.
+## Intent
 
-David Edward Sproule hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated below) patent license to make, have made, use, offer to sell, sell, import, transfer and otherwise run, modify and propagate the contents of this implementation, where such license applies only to those patent claims licensable by David Edward Sproule that are necessarily infringed by this specific implementation as publicly disclosed in this repository.
+The inventor is exploring patent protection for certain underlying biomimetic concepts, particularly where:
 
-## Scope and Limitations
+- A common phyllotactic geometry (e.g., golden angle ~137.5°, 121-node layouts, position-index anchors) appears across multiple domains (antennas, neural interfaces, cryptography, and integrated systems).  
+- Specific structural and algorithmic combinations are believed to be novel and non-obvious.
 
-This patent grant:
+The code and diagrams in this repository are intentionally limited to **toy-level demonstrations** to keep room for future filings and trade secrets.
 
-✅ **DOES grant you the right to:**
-- Use this open-source implementation for research, education, and non-commercial purposes
-- Modify and improve this specific code implementation
-- Create derivative works based on this code
-- Distribute this implementation under Apache 2.0 terms
+## Relationship to Public Repository
 
-❌ **DOES NOT grant you the right to:**
-- Practice the inventions in commercial products without separate license
-- File patent applications claiming these inventions
-- Use the technologies beyond this specific implementation
-- Claim ownership or inventorship
+- This repository **may support prior art** by demonstrating concept-level ideas and dates of disclosure.  
+- At the same time, **it omits** certain implementation details (e.g., manufacturing tolerances, process parameters, and full claim language) that may be better handled as trade secrets or through formal patent filings.  
+- Any performance metrics mentioned in related documents (e.g., “X dB improvement”, “Y% reduction”, “Z× faster”) should be understood as **modelled or aspirational values** unless otherwise supported by published data.
 
-## Defensive Termination
+## Potential Filing Themes (High-Level, Non-Exhaustive)
 
-If you institute patent litigation alleging this implementation infringes patents, then any patent rights granted to you under this License terminate as of the date such litigation is filed.
+- Phyllotactic antenna arrays with golden-angle spacing and specific indexing schemes.  
+- Neural electrode layouts using similar phyllotactic geometry for potential improvements in coverage or signal quality.  
+- Cryptographic key generation or binding mechanisms based in part on geometric indexing.  
+- Integrated devices or systems that use a shared geometry across multiple layers (sensing, communications, security).
 
-## Patent Reservation Notice
+Exact claim language and scope are intentionally **not** specified here.
 
-### Inventor's Reserved Rights
+## Recommended Caution for Users
 
-David Edward Sproule explicitly reserves all patent rights not expressly granted above, including:
+- Do not assume that material here is “free to patent” simply because it is public. Depending on timing and jurisdiction, these disclosures may limit what can be patented by anyone.  
+- Do not treat this file as proof that patents **have** been filed, granted, or will be granted. Status may change over time and must be checked independently.
 
-1. **Patent Filing Rights:** File patent applications on PNM, GAFAA, PhiKey and improvements
-2. **Commercial Licensing Rights:** Grant exclusive commercial licenses to third parties
-3. **Patent Enforcement Rights:** Enforce patents against commercial products using these technologies
+For more detailed planning, see also any separate IP-focused documents maintained outside this public repository.
 
-### Grace Period Protection
-
-**CRITICAL DEADLINES:**
-- First disclosure: **January 2, 2025**
-- US/Canada filing deadline: **January 2, 2027** (12-month grace period)
-- Target PPA filing: **January 24, 2026**
-
-This public disclosure is made strategically to:
-1. Establish dated prior art blocking third parties from patenting
-2. Preserve inventor's patent filing rights under grace periods
-3. Enable open-source research while protecting commercial rights
-4. Prevent patent blocking by competitors
-
-## Commercial Licensing Inquiries
-
-For commercial use beyond this open-source implementation:
-
-**David Edward Sproule**  
-Edmonton, Alberta, Canada  
-Email: phibronotchi@gmail.com  
-GitHub: @phibronotchi-beep
-
-Commercial licensing available for:
-- Medical device companies (PNM neural electrode arrays)
-- Wireless communication companies (GAFAA antenna technology)
-- Cybersecurity companies (PhiKey quantum-resistant encryption)
-- Defense contractors (secure communication systems)
-
-## Patent Pending Notice
-
-**Status as of January 13, 2026:**
-- ⏳ PNM: Provisional patent application planned Q1 2026
-- ⏳ GAFAA: Provisional patent application planned Q1 2026
-- ⏳ PhiKey: Provisional patent application planned Q1 2026
-
-Target filing: Provisional Patent Applications by January 24, 2026.
-
----
-
-**Document Version:** 1.0  
-**Last Updated:** January 13, 2026  
-**Effective Date:** January 2, 2025 (repository creation)  
-**Inventor:** David Edward Sproule, Edmonton, Alberta, Canada  
-**Contact:** phibronotchi@gmail.com
+**Last Updated:** January 20, 2026
