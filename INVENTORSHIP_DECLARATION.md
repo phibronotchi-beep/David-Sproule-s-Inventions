@@ -10,12 +10,12 @@
 
 ## Subject Matter Covered (Informal Scope)
 
-The following concept areas, as represented in this repository and related private work, are believed to originate from the inventor’s own research and design efforts:
+The following concept areas, as represented in this repository and related private work, are believed to originate from the inventor's own research and design efforts:
 
-- Phyllotactic neural meshing (PNM) concepts.  
-- Golden-angle fractal antenna array (GAFAA / PhiWave) concepts.  
-- Geometric keying ideas related to PhiKey.  
-- Integrated biomimetic system concepts (IBS / PhiNexus).  
+- Phyllotactic neural meshing (PNM / Phyllux Mesh) concepts.  
+- Golden-angle fractal antenna array (GAFAA / Phyllux Wave) concepts.  
+- Geometric keying ideas related to Phyllux Vault.  
+- Integrated biomimetic system concepts (Phyllux Core).  
 - Associated frameworks and naming conventions under the Phyllux umbrella.
 
 This is a **self-report by the inventor** and may not reflect the full legal picture. Questions of inventorship for any eventual patent filings must be determined under applicable law, potentially including contributions from collaborators or co-inventors in the future.
