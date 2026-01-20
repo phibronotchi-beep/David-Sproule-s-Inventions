@@ -1,10 +1,15 @@
 # PhiKey – Public Concept Repo (Geometric Security Protocol)
+## Now Part of Phyllux Vault
 
-This repository presents a high-level, non‑proprietary overview of the **PhiKey** concept.
+> **Rebrand notice:** This technology is now branded as **Phyllux Vault**. The folder name "PhiKey-public" is retained for GitHub continuity and prior art preservation. All references to "PhiKey" in this folder should be understood as referring to the Phyllux Vault system.
 
-PhiKey explores lattice‑like, growth‑inspired structures for cryptographic key material, drawing inspiration from natural geometric patterns like phyllotaxis.
+This repository presents a high-level, non‑proprietary overview of the **Phyllux Vault** (formerly PhiKey) concept.
 
-> ⚠️ **Conceptual only**. This repo contains **toy demos** and does **not** disclose the full PhiKey protocol, algorithms, or production implementation. Detailed specifications are maintained privately for potential patent protection.
+Phyllux Vault explores lattice‑like, growth‑inspired structures for cryptographic key material, drawing inspiration from natural geometric patterns like phyllotaxis.
+
+> ⚠️ **Conceptual only**. This repo contains **toy demos** and does **not** disclose the full Phyllux Vault protocol, algorithms, or production implementation. Detailed specifications are maintained privately for potential patent protection.
+
+> ⚠️ **NOT FOR PRODUCTION USE**. This is experimental research. Do not use this code to protect real-world data. For production security, use well-established, peer-reviewed cryptographic algorithms (AES, RSA, ECC, etc.).
 
 ## Goals (Public Repo)
 
@@ -20,3 +25,8 @@ PhiKey explores lattice‑like, growth‑inspired structures for cryptographic k
 - Patent claim language.
 
 Contact privately for collaboration under NDA.
+
+---
+
+**Part of the Phyllux Project**  
+Learn more: https://github.com/phibronotchi-beep/phyllux-framework
