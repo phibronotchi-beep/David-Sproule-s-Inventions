@@ -1,12 +1,30 @@
-# Biomimetic Inventions – Public Demos
+# Phyllux Biomimetic Inventions Public
 
-> Rebrand note: This repository was originally drafted under the working name **Solaris**. As of January 20, 2026, the public-facing brand is **Phyllux** to better reflect its roots in phyllotaxis and light, and to avoid potential conflicts with existing software trademarks. Historical references to "Solaris" may remain in older documents or commit history to preserve prior-art continuity.
+Epic biomimetic multi-domain system fusing phyllotaxis (golden angle ~137.508°) with AI, biology, quantum for neural interfaces, wireless comms, cryptographic security, integrated tech.
 
-Discover an experimental portfolio of phyllotaxis-inspired engineering concepts, where nature's spiral patterns meet early-stage antenna, security, and neural-interface ideas. These materials present **toy demonstrations and visualizations only**; they are not production systems, medical devices, or commercial products.
+**Provisional patents filed Jan 21, 2026 – prior art established via commits (Jan 7, 2026), MIT as defensive publication, @Phibronotchi disclosures Jan 2026. Simulation-based; empirical validation required.**
 
-## What is Biomimicry?
+> **PPA Disclaimer:** Simulation-based; empirical validation required per PPA filed Jan 21, 2026.
 
-Biomimicry is the practice of learning from nature's proven designs to inform human technology. Classic examples include sunflower seed spirals, pinecone scales, and other patterns that approximate the golden angle and Fibonacci sequence. This repository explores how similar patterns might someday inform antennas, cryptographic schemes, and neural meshes—in a highly simplified, educational form.
+## Ethical IP Tiers
+1. **Free** — Research, education, open-source.
+2. **Commercial** — Fair royalties.
+3. **Pioneer** — Low/no-fee for high-impact.
+4. **Community Defense** — No misuse; revocation for bad faith; shared prosperity, no trolling.
+
+## This Repo
+Public demos/prior art for golden-angle antennas, neural meshes, PhiKey crypto, empirical simulations.
+
+## Unifying Fusions (Extensions as Embodiments)
+Extensions for biological (mycelium nets), AI/ML (mandelbrot optimizations), medical (neuroprosthetics), space (propulsion), etc. — unified under phyllotactic system per PPA embodiments for humanity's future.
+
+## Cross-Repo Links
+- Public Demos: https://github.com/phibronotchi-beep/biomimetic-inventions-public
+- Framework: https://github.com/phibronotchi-beep/phyllux-framework
+- WIP Inventions: https://github.com/phibronotchi-beep/phyllux-inventions-wip
+- Hub (Private): Phyllux-Monollux
+
+Conceptual only – not production-ready. Seeking partners.
 
 ## Featured Concept Demos
 
@@ -30,37 +48,6 @@ Simple visualizations of electrode layouts arranged using phyllotactic patterns.
 
 [→ Explore PNM demos](https://github.com/phibronotchi-beep/biomimetic-inventions-public/tree/main/PNM-public)
 
-## About the Inventor
-
-**David Edward Sproule** is an independent inventor based in Edmonton, Alberta, Canada, exploring the intersection of biomimicry, geometry, and emerging technologies. Development of the underlying concepts, code, and documentation is currently a solo effort.
-
-> Important: This repository intentionally exposes only **public, toy-level material**. More detailed embodiments, simulations, and potential patent filings—where applicable—are maintained separately to preserve intellectual property options.
-
-## IP, Prior Art, and Licensing
-
-This repository participates in the broader **Phyllux Framework**: a tiered licensing and prior-art strategy designed to balance openness for research with protection for commercial use.
-
-### High-level status (informational only)
-
-- Public disclosures have been made over the 2024–2026 period (e.g., social posts and Git commits).  
-- Patent and trade-secret strategies are being explored for certain underlying concepts.  
-- Nothing in this repository should be interpreted as legal advice or as a promise that patents have been granted.
-
-### Use and Licensing
-
-- **Research / education / personal tinkering:**  
-  - Free of charge under the repository's code license (see `LICENSE`).  
-  - Please provide appropriate attribution to this repository.
-
-- **Commercial or product use:**  
-  - Requires a separate license under the Phyllux Framework.  
-  - Contact the inventor for discussion before incorporating any concepts into a commercial offering.
-
-For the full philosophical and licensing context, see:
-
-- **Phyllux Framework / Project overview:**  
-  - https://github.com/phibronotchi-beep/phyllux-framework
-
 ## Quick Start
 
 ```bash
@@ -72,7 +59,7 @@ python examples/[demo].py
 
 These scripts are intended for local experimentation only and may change without notice.
 
-## Repository Structure (top level)
+## Repository Structure
 
 ```
 biomimetic-inventions-public/
@@ -82,8 +69,9 @@ biomimetic-inventions-public/
 ├── INVENTION_DISCLOSURE.md   # High-level internal-style disclosure summary
 ├── INVENTORSHIP_DECLARATION.md
 ├── INTEGRATED_SYSTEM.md      # Concept for combining PNM, GAFAA, and Phyllux Vault
-├── SOLARIS_PROJECT.md        # Legacy "Solaris" manifesto (historical context)
 ├── TIMESTAMP.md              # Timing and disclosure log
+├── project_overview.md       # PPA reference and unifying fusions
+├── PITCH.md                  # Market and partnership information
 │
 ├── PNM-public/
 ├── golden-angle-antenna-GAFAA-public/
@@ -104,73 +92,4 @@ Underlying inventions and higher-level concepts may be subject to additional Phy
 
 Nothing in this repository guarantees any particular performance, safety level, or regulatory status. Use at your own risk, and do not treat any content here as medical, security, or legal advice.
 
-Last Updated: January 20, 2026
-
-
-***
-
-## 2. `README-ALT.md` (alternative intro)
-
-```markdown
-# Biomimetic Inventions – Alternative Overview
-
-This alternative README presents the same repository from a slightly more narrative perspective. It is safe to share publicly and should always be interpreted as **conceptual and exploratory**, not as product documentation.
-
-## From Solaris to Phyllux
-
-Earlier drafts used the name **Solaris** to describe this family of biomimetic technologies. To avoid confusion with other software and to better reflect the focus on phyllotaxis ("phyl‑") and light ("‑lux"), the public brand is now **Phyllux**.
-
-- "Solaris" may still appear:
-  - In older files (e.g., `SOLARIS_PROJECT.md`).  
-  - In Git history.  
-  - In internal patent strategy documents.
-- When in doubt, treat "Solaris Project" as a **historical name** for what is now called the **Phyllux Project**.
-
-## What This Repository Is (and Is Not)
-
-This repository **is**:
-
-- A set of **concept demos and documents** exploring:
-  - Phyllotactic electrode layouts (PNM / Phyllux Mesh).  
-  - Phyllotactic antenna arrays (GAFAA / Phyllux Wave).  
-  - Geometric key ideas for cryptography (Phyllux Vault).  
-  - A high-level integrated system concept (Phyllux Core).  
-- A way to establish **public prior art** around these ideas at a conceptual level.  
-- A platform for others to **learn from and build upon** the geometric patterns, subject to licensing.
-
-This repository is **not**:
-
-- A substitute for **filed and granted patents**.  
-- A set of **clinically validated medical devices** or **deployment-ready RF designs**.  
-- A security-audited cryptographic library.  
-- Legal, medical, or investment advice.
-
-## Relationship to the Phyllux Framework
-
-The **Phyllux Framework** is a broader umbrella that includes:
-
-- Licensing models (research vs. commercial vs. mission-aligned use).  
-- Philosophical context (e.g., PhiGenesis, 444 framework).  
-- Additional documentation not mirrored here.
-
-This `biomimetic-inventions-public` repository is the **technical, demo-focused edge** of that ecosystem. Most users can interact with this repository without needing to engage the deeper philosophical layer.
-
-## How to Use This Repo Safely
-
-1. **Treat everything as a starting point.**  
-   - Any numerical performance values or metrics discussed in related docs should be assumed to be **simulated, theoretical, or aspirational** unless explicitly backed by published data.
-
-2. **Do not deploy directly to safety-critical or security-critical environments.**  
-   - No content here has been certified for clinical, regulatory, or cryptographic use.
-
-3. **Reach out before commercial use.**  
-   - Commercial users should contact the inventor to discuss licensing and risk mitigation.
-
-## Where to Go Next
-
-- High-level architecture and integrated concepts: `INTEGRATED_SYSTEM.md`  
-- Prior art rationale and legal positioning: `PRIOR_ART.md` and `TIMESTAMP.md`  
-- Broader Phyllux philosophy: `SOLARIS_PROJECT.md` (legacy manifest - historical reference)  
-
-**Last Updated:** January 20, 2026
-```
+Last Updated: January 21, 2026

@@ -1,3 +1,7 @@
+"""
+Simulation-based; empirical validation required per PPA filed Jan 21, 2026.
+PPA: "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security"
+"""
 import matplotlib.pyplot as plt
 from src.pnm_public.spiral_utils import toy_electrode_array
 

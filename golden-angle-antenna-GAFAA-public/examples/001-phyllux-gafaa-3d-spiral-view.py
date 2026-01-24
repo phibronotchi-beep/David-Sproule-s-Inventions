@@ -1,3 +1,7 @@
+"""
+Simulation-based; empirical validation required per PPA filed Jan 21, 2026.
+PPA: "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security"
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D

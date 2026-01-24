@@ -1,15 +1,20 @@
+"""
+Simulation-based; empirical validation required per PPA filed Jan 21, 2026.
+PPA: "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security"
+"""
 import numpy as np
 import matplotlib.pyplot as plt
-from src.gafaa_public.phyllotaxis_utils import golden_like_spiral_points
+from src.pnm_public.spiral_utils import toy_electrode_array
 
 
-def toy_array_factor_polar(n_elements=64, scan_angle_deg=0.0):
+def toy_array_factor_polar(n_electrodes=64):
     """
     Simplified toy array-factor example in polar coordinates.
     
-    Not calibrated to any real frequency, spacing, or claimed design.
+    Educational demo only - not a real neural interface design.
     """
-    x, y = golden_like_spiral_points(n_elements, radius_scale=0.05, angle_deg=137.0)
+    positions = toy_electrode_array(n_electrodes, spacing_scale=0.05, angle_deg=137.508)
+    x, y = positions[:, 0], positions[:, 1]
 
     theta = np.linspace(0, 2*np.pi, 360)  # observation angles
     k = 1.0  # arbitrary wavenumber for toy example
