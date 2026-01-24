@@ -1,44 +1,40 @@
+# To use: Run this script to generate the image. Output saves to 'images/' relative to this file. Install requirements: pip install numpy matplotlib.
 """
 Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
 """
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-def toy_lattice_growth(n_nodes: int, growth_angle_deg: float = 137.508):
-    """
-    Generic toy lattice growth demo.
-    
-    Educational only – NOT the real PhiKey algorithm.
-    """
-    indices = np.arange(n_nodes)
-    # Simplified radial + angular growth
-    r = np.sqrt(indices)
-    theta = np.deg2rad(indices * growth_angle_deg)
-    
+# Section 4: From PhiKey-public/geometric_utils.py
+# Set the output directory relative to this file
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.join(SCRIPT_DIR, '..', '..', '..', '..')
+IMAGE_DIR = os.path.join(REPO_ROOT, 'images')
+os.makedirs(IMAGE_DIR, exist_ok=True)
+
+print(f"Image output directory: {IMAGE_DIR}")
+
+print("Running geometric_utils section...")
+try:
+    N = 121
+    golden_angle = 137.508
+    theta = np.arange(N) * np.deg2rad(golden_angle)
+    r = np.sqrt(np.arange(N)) * 0.5
+
     x = r * np.cos(theta)
     y = r * np.sin(theta)
-    return np.column_stack([x, y])
 
-
-if __name__ == "__main__":
-    # Generate 121 nodes
-    nodes = toy_lattice_growth(121, growth_angle_deg=137.508)
-
-    # Print results
-    print("Number of nodes:", len(nodes))
-    print("First 5 node positions (x, y):")
-    print(nodes[:5])
-
-    # Plot
-    plt.figure(figsize=(8, 8), facecolor='white')
-    plt.scatter(nodes[:, 0], nodes[:, 1], s=80, c='green', alpha=0.7, edgecolors='black', linewidths=1.5)
-    plt.plot(nodes[:, 0], nodes[:, 1], 'b-', alpha=0.3, linewidth=1.0)
-    plt.xlabel('X position', fontsize=12, fontweight='bold')
-    plt.ylabel('Y position', fontsize=12, fontweight='bold')
-    plt.title('121-Node Lattice Growth (Golden Angle)', fontsize=14, fontweight='bold')
-    plt.axis('equal')
-    plt.grid(True, alpha=0.4, linewidth=0.8)
-    plt.tight_layout()
-    plt.savefig('images/phikey_121_clean.png', dpi=300, bbox_inches='tight', facecolor='white')
-    print("\nFigure saved to images/phikey_121_clean.png")
-    plt.show()
+    fig, ax = plt.subplots(figsize=(8, 8))
+    ax.scatter(x, y, s=10, c='green', alpha=0.7)
+    ax.plot(x, y, color='blue', linewidth=0.5, alpha=0.5)
+    ax.set_title("121-Node Lattice Growth (Golden Angle)")
+    ax.set_xlabel("X Position (arbitrary units)")
+    ax.set_ylabel("Y Position (arbitrary units)")
+    ax.set_aspect('equal')
+    ax.grid(True)
+    plt.savefig(os.path.join(IMAGE_DIR, 'phikey_121_clean.png'), dpi=300, bbox_inches='tight')
+    plt.close(fig)
+    print("Generated: phikey_121_clean.png")
+except Exception as e:
+    print(f"Error in geometric_utils: {e}")

@@ -1,44 +1,53 @@
+# To use: Run this script to generate the image. Output saves to 'images/' relative to this file. Install requirements: pip install numpy matplotlib.
 """
 Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
 """
+import os
 import numpy as np
 import matplotlib.pyplot as plt
-from src.gafaa_public.phyllotaxis_utils import golden_like_spiral_points
 
+# Section 1: From golden-angle-antenna-GAFAA-public/array_factor_polar.py
+# Set the output directory relative to this file
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.join(SCRIPT_DIR, '..', '..', '..')
+IMAGE_DIR = os.path.join(REPO_ROOT, 'images')
+os.makedirs(IMAGE_DIR, exist_ok=True)
 
-def toy_array_factor_polar(n_elements=64, scan_angle_deg=0.0):
-    """
-    Simplified toy array-factor example in polar coordinates.
-    
-    Not calibrated to any real frequency, spacing, or claimed design.
-    """
-    x, y = golden_like_spiral_points(n_elements, radius_scale=0.05, angle_deg=137.508)
+print(f"Image output directory: {IMAGE_DIR}")
 
-    theta = np.linspace(0, 2*np.pi, 360)  # observation angles
-    k = 1.0  # arbitrary wavenumber for toy example
+print("Running array_factor_polar section...")
+try:
+    f = 28e9  # Frequency (28 GHz)
+    c = 3e8  # Speed of light
+    lambda_ = c / f  # Wavelength
+    N = 121  # Number of elements
 
-    af = np.zeros_like(theta, dtype=complex)
-    for (xi, yi) in zip(x, y):
-        phase = k * (xi * np.cos(theta) + yi * np.sin(theta))
-        af += np.exp(1j * phase)
+    # Generate spiral positions
+    theta_spiral = np.arange(N) * np.deg2rad(137.508)
+    r = np.sqrt(np.arange(N))
+    x = r * np.cos(theta_spiral)
+    y = r * np.sin(theta_spiral)
+    element_positions = np.column_stack((x, y))
 
-    af_db = 20 * np.log10(np.abs(af) / np.max(np.abs(af)) + 1e-9)
-    return theta, af_db
+    # Grid for polar plot
+    theta, phi = np.mgrid[0:np.pi:100j, 0:2*np.pi:100j]
 
+    # Calculate AF
+    k = 2 * np.pi / lambda_  # Wave number
+    phase = k * (element_positions[:, 0, np.newaxis, np.newaxis] * np.sin(theta) * np.cos(phi) +
+                 element_positions[:, 1, np.newaxis, np.newaxis] * np.sin(theta) * np.sin(phi))
+    AF = np.sum(np.exp(1j * phase), axis=0) / N
+    AF_dB = 20 * np.log10(np.abs(AF) + 1e-10)  # in dB
 
-def main():
-    theta, af_db = toy_array_factor_polar()
-
-    # Polar plot
-    fig, ax = plt.subplots(subplot_kw={'projection': 'polar'}, figsize=(8, 8))
-    ax.plot(theta, af_db)
+    fig = plt.figure(figsize=(8, 8))
+    ax = fig.add_subplot(111, projection='polar')
+    contour = ax.contourf(phi, theta * (180/np.pi), AF_dB, levels=30, cmap='viridis')
     ax.set_theta_zero_location('N')
     ax.set_theta_direction(-1)
-    ax.set_title("Toy Array Factor (Polar Plot)", pad=20)
-    ax.grid(True)
-    plt.tight_layout()
-    plt.show()
-
-
-if __name__ == "__main__":
-    main()
+    ax.set_title("Array Factor Polar Plot (dB)")
+    fig.colorbar(contour)
+    plt.savefig(os.path.join(IMAGE_DIR, 'array_factor_polar.png'), dpi=300, bbox_inches='tight')
+    plt.close(fig)
+    print("Generated: array_factor_polar.png")
+except Exception as e:
+    print(f"Error in array_factor_polar: {e}")

@@ -1,17 +1,43 @@
+# To use: Run this script to generate the image. Output saves to 'images/' relative to this file. Install requirements: pip install numpy matplotlib.
 """
 Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
 """
+import os
+import numpy as np
 import matplotlib.pyplot as plt
-from src.gafaa_public.phyllotaxis_utils import golden_like_spiral_points
 
-def main():
-    x, y = golden_like_spiral_points(n_points=200, radius_scale=0.1, angle_deg=137.508)
+# Section 2: From golden-angle-antenna-GAFAA-public/spiral_utils.py
+# Set the output directory relative to this file
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.join(SCRIPT_DIR, '..', '..', '..')
+IMAGE_DIR = os.path.join(REPO_ROOT, 'images')
+os.makedirs(IMAGE_DIR, exist_ok=True)
 
-    fig, ax = plt.subplots()
-    ax.scatter(x, y, s=10)
-    ax.set_aspect("equal", "box")
-    ax.set_title("Generic golden-like spiral demo")
-    plt.show()
+print(f"Image output directory: {IMAGE_DIR}")
 
-if __name__ == "__main__":
-    main()
+print("Running spiral_utils section...")
+try:
+    N = 121
+    golden_angle = 137.508
+    theta = np.arange(N) * np.deg2rad(golden_angle)
+    r = np.sqrt(theta) * 0.5  # Scaled
+
+    x = r * np.cos(theta)
+    y = r * np.sin(theta)
+
+    print("Number of nodes:", N)
+    print("First 5 node positions (x, y):")
+    print(np.column_stack((x[:5], y[:5])))
+
+    fig, ax = plt.subplots(figsize=(8, 8))
+    ax.scatter(x, y, s=10, c='blue')
+    ax.set_title("Spiral Positions (121 nodes)")
+    ax.set_xlabel("X Position (arbitrary units)")
+    ax.set_ylabel("Y Position (arbitrary units)")
+    ax.set_aspect('equal')
+    ax.grid(True)
+    plt.savefig(os.path.join(IMAGE_DIR, 'spiral_positions.png'), dpi=300, bbox_inches='tight')
+    plt.close(fig)
+    print("Generated: spiral_positions.png")
+except Exception as e:
+    print(f"Error in spiral_utils: {e}")
