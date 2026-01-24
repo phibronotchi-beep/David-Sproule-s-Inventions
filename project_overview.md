@@ -2,15 +2,15 @@
 
 ## PPA Reference
 
-**Provisional Patent Application:** "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security"  
-**Filed:** January 21, 2026  
-**Priority Date:** January 7, 2026 (via this repository commits)  
+**Provisional Application:** "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security"  
+**Prepared for Filing:** January 21, 2026  
+**Priority Date:** January 7, 2026 (via this repository's first commit)  
 **Defensive Publication:** MIT  
 **Disclosures:** @Phibronotchi Jan 2026  
 **Federal Funding:** None  
-**Field:** Biomimetic phyllotactic systems
+**Field:** Biomimetic phyllotactic systems for neural/antenna/crypto/integration
 
-## Unifying Fusions (Extensions as Embodiments)
+## Extensions as Embodiments (Unifying Other Inventions)
 
 The PPA embodiments unify multiple domains under phyllotactic system principles:
 
@@ -19,31 +19,31 @@ The PPA embodiments unify multiple domains under phyllotactic system principles:
 - **GAFAA (Phyllux Wave)**: Antenna arrays with golden-angle spiral layouts
 - **Phyllux Vault**: Cryptographic security using geometric lattice structures
 
-### Extension Domains
+### Extension Domains (Unified Under PPA Embodiments)
 - **Biological**: Mycelium networks, biomimetic structures
 - **AI/ML**: Mandelbrot optimizations, geometric learning
 - **Medical**: Neuroprosthetics, brain-computer interfaces
 - **Space**: Propulsion systems, orbital mechanics
 - **Quantum**: Post-quantum cryptography, quantum-resistant security
 
-All extensions are unified under phyllotactic system principles per PPA embodiments for humanity's future.
+All extensions are unified under phyllotactic system principles per PPA embodiments.
 
 ## Cross-Repo Links
 
-- **Public Demos**: https://github.com/phibronotchi-beep/biomimetic-inventions-public
-- **Framework**: https://github.com/phibronotchi-beep/phyllux-framework
+- **Public Demos/Prior Art**: https://github.com/phibronotchi-beep/biomimetic-inventions-public
+- **Core Framework**: https://github.com/phibronotchi-beep/phyllux-framework
 - **WIP Inventions**: https://github.com/phibronotchi-beep/phyllux-inventions-wip
-- **Hub (Private)**: Phyllux-Monollux
+- **Full Scope Hub (Private)**: Phyllux-Monollux (contact for NDA access)
 
 ## Ethical IP Tiers
 
-1. **Free** — Research, education, open-source
-2. **Commercial** — Fair royalties
-3. **Pioneer** — Low/no-fee for high-impact
-4. **Community Defense** — No misuse; revocation for bad faith; shared prosperity, no trolling
+1. **Free Tier** — Research, education, open-source contributions
+2. **Commercial Tier** — Fair royalties for profit use
+3. **Pioneer Tier** — Low/no-fee for high-impact players (sustainability, space, longevity orgs)
+4. **Community Defense** — No misuse; revocation for bad faith; shared prosperity, no patent trolling
 
 ## Status
 
-**Simulation-based; empirical validation required per PPA filed Jan 21, 2026.**
+**Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.**
 
-Conceptual only – not production-ready. Seeking partners for empirical validation, fabrication, and commercialization.
+Conceptual/educational only – not production-ready. Seeking partners for development under ethical model.

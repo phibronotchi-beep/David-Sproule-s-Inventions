@@ -1,30 +1,30 @@
 # Phyllux Biomimetic Inventions Public
 
-Epic biomimetic multi-domain system fusing phyllotaxis (golden angle ~137.508°) with AI, biology, quantum for neural interfaces, wireless comms, cryptographic security, integrated tech.
+Biomimetic multi-domain system fusing phyllotaxis (golden angle ~137.508°) with AI, biology, quantum for neural interfaces, wireless communications, cryptographic security, integrated tech.
 
-**Provisional patents filed Jan 21, 2026 – prior art established via commits (Jan 7, 2026), MIT as defensive publication, @Phibronotchi disclosures Jan 2026. Simulation-based; empirical validation required.**
+**Provisional application prepared for filing Jan 21, 2026 – prior art established via commits (Jan 7, 2026), MIT as defensive publication, @Phibronotchi disclosures Jan 2026. Simulation-based; empirical validation required.**
 
-> **PPA Disclaimer:** Simulation-based; empirical validation required per PPA filed Jan 21, 2026.
+> **PPA Disclaimer:** Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
 
 ## Ethical IP Tiers
-1. **Free** — Research, education, open-source.
-2. **Commercial** — Fair royalties.
-3. **Pioneer** — Low/no-fee for high-impact.
-4. **Community Defense** — No misuse; revocation for bad faith; shared prosperity, no trolling.
+1. **Free Tier** — Research, education, open-source contributions.
+2. **Commercial Tier** — Fair royalties for profit use.
+3. **Pioneer Tier** — Low/no-fee for high-impact players (sustainability, space, longevity orgs).
+4. **Community Defense** — No misuse; revocation for bad faith; shared prosperity, no patent trolling.
 
 ## This Repo
-Public demos/prior art for golden-angle antennas, neural meshes, PhiKey crypto, empirical simulations.
+Public demos and prior art for golden-angle antennas, neural meshes, PhiKey crypto concepts, empirical simulations.
 
-## Unifying Fusions (Extensions as Embodiments)
-Extensions for biological (mycelium nets), AI/ML (mandelbrot optimizations), medical (neuroprosthetics), space (propulsion), etc. — unified under phyllotactic system per PPA embodiments for humanity's future.
+## Extensions as Embodiments (Unifying Other Inventions)
+Extensions for biological (mycelium nets), AI/ML (mandelbrot optimizations), medical (neuroprosthetics), space (propulsion), etc. — unified under phyllotactic system per PPA embodiments.
 
 ## Cross-Repo Links
-- Public Demos: https://github.com/phibronotchi-beep/biomimetic-inventions-public
-- Framework: https://github.com/phibronotchi-beep/phyllux-framework
+- Public Demos/Prior Art: https://github.com/phibronotchi-beep/biomimetic-inventions-public
+- Core Framework: https://github.com/phibronotchi-beep/phyllux-framework
 - WIP Inventions: https://github.com/phibronotchi-beep/phyllux-inventions-wip
-- Hub (Private): Phyllux-Monollux
+- Full Scope Hub (Private): Phyllux-Monollux (contact for NDA access)
 
-Conceptual only – not production-ready. Seeking partners.
+Conceptual/educational only – not production-ready. Seeking partners for development under ethical model.
 
 ## Featured Concept Demos
 
@@ -70,7 +70,7 @@ biomimetic-inventions-public/
 ├── INVENTORSHIP_DECLARATION.md
 ├── INTEGRATED_SYSTEM.md      # Concept for combining PNM, GAFAA, and Phyllux Vault
 ├── TIMESTAMP.md              # Timing and disclosure log
-├── project_overview.md       # PPA reference and unifying fusions
+├── project_overview.md        # PPA reference and unifying fusions
 ├── PITCH.md                  # Market and partnership information
 │
 ├── PNM-public/
@@ -86,7 +86,7 @@ Sproule, D. E. (2026). Biomimetic Inventions: Phyllotactic Neural Meshing (Phyll
 
 ## License
 
-Source code and example scripts: typically under an open-source license such as MIT (see LICENSE for exact terms).
+Source code and example scripts: typically under an open-source license such as MIT (see LICENSE.md for exact terms).
 
 Underlying inventions and higher-level concepts may be subject to additional Phyllux Framework licensing for commercial use.
 

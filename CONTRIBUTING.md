@@ -1,6 +1,6 @@
 # Contributing to Biomimetic Inventions Public
 
-Thank you for your interest in contributing to this repository. This document outlines guidelines for good-faith contributions aligned with the PPA (Provisional Patent Application) filed Jan 21, 2026.
+Good faith contributions only. Follow ethical tiers. Empirical contributions welcome; cite PPA for alignment.
 
 ## Good Faith Contributions
 
@@ -16,14 +16,14 @@ We welcome contributions that:
 When contributing empirical data, simulations, or extensions that relate to the core phyllotactic inventions, please:
 
 1. **Cite the PPA** in your contributions:
-   - "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" filed Jan 21, 2026
-   - Priority date: Jan 7, 2026 (via this repository commits)
+   - "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" prepared for filing Jan 21, 2026
+   - Priority date: Jan 7, 2026 (via this repository's first commit)
    - MIT as defensive publication
    - @Phibronotchi disclosures Jan 2026
 
 2. **Note empirical alignment**: If your contribution includes empirical validation or experimental results, clearly indicate how it aligns with or extends the PPA embodiments.
 
-3. **Maintain simulation disclaimer**: All code should include the disclaimer: "Simulation-based; empirical validation required per PPA filed Jan 21, 2026."
+3. **Maintain simulation disclaimer**: All code should include the disclaimer: "Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026."
 
 ## Contribution Process
 
