@@ -1,12 +1,10 @@
-# Phyllux Biomimetic Inventions Public
+# Phyllux Biomimetic Inventions – Public Demos
 
 Biomimetic multi-domain system fusing phyllotaxis (golden angle ~137.508°) with AI, biology, quantum for neural interfaces, wireless communications, cryptographic security, integrated tech.
 
 **Provisional application prepared for filing Jan 21, 2026 – prior art established via commits (Jan 7, 2026), MIT as defensive publication, @Phibronotchi disclosures Jan 2026. Simulation-based; empirical validation required.**
 
-> **PPA Disclaimer:** Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
-
-## Ethical IP Tiers
+## Ethical IP Tiers (Unified Across All Phyllux Repos)
 1. **Free Tier** — Research, education, open-source contributions.
 2. **Commercial Tier** — Fair royalties for profit use.
 3. **Pioneer Tier** — Low/no-fee for high-impact players (sustainability, space, longevity orgs).
@@ -15,7 +13,7 @@ Biomimetic multi-domain system fusing phyllotaxis (golden angle ~137.508°) with
 ## This Repo
 Public demos and prior art for golden-angle antennas, neural meshes, PhiKey crypto concepts, empirical simulations.
 
-## Extensions as Embodiments (Unifying Other Inventions)
+## Extensions as Embodiments
 Extensions for biological (mycelium nets), AI/ML (mandelbrot optimizations), medical (neuroprosthetics), space (propulsion), etc. — unified under phyllotactic system per PPA embodiments.
 
 ## Cross-Repo Links

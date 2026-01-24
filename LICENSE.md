@@ -22,7 +22,7 @@ SOFTWARE.
 
 ---
 
-## MIT License + Ethical IP Tiers (see README.md). No misuse.
+MIT License + Ethical IP Tiers (see README.md). No misuse.
 
 **Core Inventions Proprietary**: The underlying biomimetic inventions (PNM/Phyllux Mesh, 
 GAFAA/Phyllux Wave, Phyllux Vault, and integrated system concepts) are proprietary 
@@ -39,5 +39,9 @@ separately and may be subject to patent filings.
 **Research Use**: Code and documentation in this repository are provided for research, 
 education, and non-commercial exploration under the MIT License (code) and CC BY-SA 4.0 
 (documentation). Attribution is appreciated but not required beyond license terms.
+
+**Documentation License**: Documentation files (`.md`, `.txt` documentation) are licensed under 
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). See LICENSE-DOCS.md 
+for details. Source code remains under MIT License.
 
 **PPA Reference**: Provisional application "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" prepared for filing Jan 21, 2026, priority to this repo's first commit Jan 7, 2026, MIT as defensive publication, @Phibronotchi disclosures Jan 2026, no federal funding, field: biomimetic phyllotactic systems for neural/antenna/crypto/integration.
