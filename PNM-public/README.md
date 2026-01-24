@@ -4,6 +4,11 @@ High-level, non‑proprietary overview of the **PNM** concept.
 
 PNM explores electrode array layouts inspired by natural phyllotactic patterns for neural interface research.
 
+![PNM Electrode Array](docs/assets/pnm-electrode-array.svg)
+
+*Example spiral pattern visualization:*
+![Spiral Plot](docs/assets/spiral-plot.png)
+
 > ⚠️ **Toy demos only**. No full device specs, fabrication details, or clinical claims. Private work may be patent‑protected.
 
 ## Goals

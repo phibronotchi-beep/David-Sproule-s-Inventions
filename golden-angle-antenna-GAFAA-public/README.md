@@ -4,6 +4,11 @@ This repository presents a high-level, non‑proprietary overview of the **Golde
 
 GAFAA is an antenna architecture *inspired* by phyllotaxis: the spiral patterns seen in sunflowers and pinecones. The idea is to explore how aperiodic, golden‑angle‑like spacing might help reduce interference and improve spectral use in dense communication systems.
 
+![GAFAA Array Layout](docs/assets/gafaa-array-layout.svg)
+
+*Example phyllotactic spiral pattern visualization:*
+![Phyllotaxis Plot](docs/assets/phyllotaxis-plot.png)
+
 > Important: This repo is **conceptual only**. It does **not** contain full device specifications, patent claim language, or production‑grade designs. Those details are maintained separately and may be the subject of patent filings.
 
 ## Goals (Public Repo)
