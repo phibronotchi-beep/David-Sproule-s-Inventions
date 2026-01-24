@@ -7,6 +7,8 @@
 
 All legacy images have been removed and scripts have been updated to regenerate images to `/images/` directory.
 
+**Current State:** Scripts are configured and ready. Images will be generated when scripts are executed with numpy and matplotlib installed.
+
 ## Changes Made
 
 ### Commit 1: `dfc5cab` - "Remove legacy images (prepare for clean regeneration)"
