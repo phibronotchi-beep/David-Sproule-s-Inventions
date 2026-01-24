@@ -6,11 +6,15 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Section 4: From PhiKey-public/geometric_utils.py
-# Set the output directory relative to this file
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.join(SCRIPT_DIR, '..', '..', '..', '..')
-IMAGE_DIR = os.path.join(REPO_ROOT, 'images')
+# Section 4: geometric_utils.py
+# Portable IMAGE_DIR
+try:
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+except NameError:
+    SCRIPT_DIR = os.getcwd()
+
+# Use absolute path (change if needed)
+IMAGE_DIR = r"D:\Phyllux Project\biomimetic-inventions-public\images"
 os.makedirs(IMAGE_DIR, exist_ok=True)
 
 print(f"Image output directory: {IMAGE_DIR}")
