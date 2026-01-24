@@ -205,7 +205,7 @@ Commercial applications require patent licensing:
 | Late Dec 2024 | Preliminary repository |
 | **Jan 2, 2025** | **First public disclosure** |
 | Jan 13, 2026 | IP documentation completed |
-| **Target: Jan 24, 2026** | **Provisional patents filing** |
+| **Target: Late Jan 2026** | **Provisional patents filing (prepared, to be filed)** |
 | **Deadline: Jan 2, 2027** | **Grace period expires** |
 
 ---

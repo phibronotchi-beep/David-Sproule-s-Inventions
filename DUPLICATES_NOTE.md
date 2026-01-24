@@ -2,7 +2,7 @@
 
 This repository contains some files with similar names across different subdirectories (e.g., `3d_spiral_view.py`, `array_factor_polar.py`). These are **intentional duplicates** - each subdirectory (GAFAA, PhiKey, PNM) contains its own implementation tailored to that specific technology domain.
 
-**Unified under PPA embodiments:** All implementations are unified under the phyllotactic system principles per PPA "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" prepared for filing Jan 21, 2026.
+**Unified under PPA embodiments:** All implementations are unified under the phyllotactic system principles per PPA "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" prepared for filing (to be filed late January 2026).
 
 Files have been renamed to numbered lowercase-hyphenated format for standardization:
 - GAFAA examples: 001-007 (001-004: basic demos, 005-007: realistic RF analysis)

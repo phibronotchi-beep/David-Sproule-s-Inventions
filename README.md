@@ -2,7 +2,7 @@
 
 Biomimetic multi-domain system fusing phyllotaxis (golden angle ~137.508°) with AI, biology, quantum for neural interfaces, wireless communications, cryptographic security, integrated tech.
 
-**Provisional application prepared for filing Jan 21, 2026 – prior art established via commits (Jan 7, 2026), MIT as defensive publication, @Phibronotchi disclosures Jan 2026. Simulation-based; empirical validation required.**
+**Provisional application prepared for filing (to be filed late January 2026) – prior art established via commits (Jan 7, 2026), MIT as defensive publication, @Phibronotchi disclosures Jan 2026. Simulation-based; empirical validation required.**
 
 ## Ethical IP Tiers (Unified Across All Phyllux Repos)
 1. Free Tier — Research, education, open-source contributions.
@@ -97,10 +97,18 @@ If you reference these ideas in academic work, a suggested citation is:
 
 Sproule, D. E. (2026). Biomimetic Inventions: Phyllotactic Neural Meshing (Phyllux Mesh), Golden-Angle Fractal Antenna Arrays (Phyllux Wave), and Phyllux Vault Cryptography (conceptual demos). GitHub repository: github.com/phibronotchi-beep/biomimetic-inventions-public
 
-## License
+## Licensing
 
-MIT License + Ethical IP Tiers (see README.md). No misuse.
+This repository uses a dual-licensing structure:
+
+- **Source Code**: [MIT License](LICENSE) - Permissive license for code and scripts
+- **Documentation**: [CC BY-SA 4.0](DOCS_LICENSE.md) - ShareAlike license for markdown files and documentation
+- **IP Notice**: [LICENSE-IP-NOTICE.md](LICENSE-IP-NOTICE.md) - Intellectual property and commercial licensing information
+
+For a complete summary, see [LICENSE_SUMMARY.md](LICENSE_SUMMARY.md).
+
+**Ethical IP Tiers**: See [README.md](README.md#ethical-ip-tiers-unified-across-all-phyllux-repos) for the 4-tier licensing model (Free, Commercial, Pioneer, Community Defense).
 
 Nothing in this repository guarantees any particular performance, safety level, or regulatory status. Use at your own risk, and do not treat any content here as medical, security, or legal advice.
 
-Last Updated: January 21, 2026
+Last Updated: January 22, 2026

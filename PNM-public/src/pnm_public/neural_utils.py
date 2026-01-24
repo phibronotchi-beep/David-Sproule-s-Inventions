@@ -1,5 +1,5 @@
 """
-Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
+Simulation-based; empirical validation required per provisional application prepared for filing (to be filed late January 2026).
 
 Realistic neural interface calculation utilities for PNM electrode arrays.
 Based on standard neural interface models and phyllotactic geometry.

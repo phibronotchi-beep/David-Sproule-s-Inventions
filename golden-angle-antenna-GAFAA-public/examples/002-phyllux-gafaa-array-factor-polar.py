@@ -1,6 +1,6 @@
 # To use: Run this script to generate the image. Output saves to 'images/' relative to this file. Install requirements: pip install numpy matplotlib.
 """
-Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
+Simulation-based; empirical validation required per provisional application prepared for filing (to be filed late January 2026).
 """
 import os
 import numpy as np

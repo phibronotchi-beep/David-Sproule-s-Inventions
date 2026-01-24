@@ -1,5 +1,5 @@
 """
-Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
+Simulation-based; empirical validation required per provisional application prepared for filing (to be filed late January 2026).
 
 Realistic RF calculation utilities for GAFAA antenna arrays.
 Based on standard antenna array theory and phyllotactic geometry.

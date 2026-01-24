@@ -62,4 +62,4 @@ All example Python files follow numbered lowercase-hyphenated format:
 
 ## Unified Under PPA Embodiments
 
-All implementations are unified under phyllotactic system principles per PPA "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" prepared for filing Jan 21, 2026.
+All implementations are unified under phyllotactic system principles per PPA "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" prepared for filing (to be filed late January 2026).

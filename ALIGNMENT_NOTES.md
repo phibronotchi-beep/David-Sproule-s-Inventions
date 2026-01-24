@@ -124,7 +124,7 @@ Per governance rules, the following improvements are **required**:
 ✅ **biomimetic-inventions-public:**
 - Supports PPA without competing
 - Toy-level demonstrations preserve claim scope
-- PPA disclaimer: "Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026"
+- PPA disclaimer: "Simulation-based; empirical validation required per provisional application prepared for filing (to be filed late January 2026)"
 
 ✅ **phyllux-framework:**
 - Governance only, no invention claims

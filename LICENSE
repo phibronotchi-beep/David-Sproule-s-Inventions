@@ -20,22 +20,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
-
-## Phyllux Intellectual Property Notice
-
-**Core Inventions Proprietary**: The underlying biomimetic inventions (PNM/Phyllux Mesh, 
-GAFAA/Phyllux Wave, Phyllux Vault, and integrated system concepts) are proprietary 
-intellectual property. This repository establishes prior art and provides educational 
-demonstrations only.
-
-**Commercial Licensing**: For commercial use, licensing inquiries, or patent-related 
-discussions, contact: phibronotchi@gmail.com
-
-**Prior Art**: This public repository serves to document conceptual prior art. Detailed 
-implementations, manufacturing specifications, and proprietary algorithms are maintained 
-separately and may be subject to patent filings.
-
-**Research Use**: Code and documentation in this repository are provided for research, 
-education, and non-commercial exploration under the MIT License (code) and CC BY-SA 4.0 
-(documentation). Attribution is appreciated but not required beyond license terms.

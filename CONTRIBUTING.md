@@ -12,14 +12,14 @@ Good faith contributions only. Follow ethical tiers. Empirical contributions wel
 ## Contribution Guidelines
 
 - **Good Faith**: All contributions must be made in good faith with the goal of advancing the technology
-- **PPA Alignment**: Empirical contributions should cite the PPA: "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" (prepared for filing Jan 21, 2026)
+- **PPA Alignment**: Empirical contributions should cite the PPA: "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security" (prepared for filing, to be filed late January 2026)
 - **Code Standards**: Follow existing code style and naming conventions
 - **Documentation**: Update relevant documentation when adding features
 - **Testing**: Include tests where applicable (simulation-based validation)
 
 ## PPA Disclaimer
 
-Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.
+Simulation-based; empirical validation required per provisional application prepared for filing (to be filed late January 2026).
 
 ## Security
 

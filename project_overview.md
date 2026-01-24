@@ -3,7 +3,7 @@
 ## PPA Reference
 
 **Provisional Application:** "Phyllotactic Multi-Domain System for Neural Interfaces, Wireless Communications, and Cryptographic Security"  
-**Prepared for Filing:** January 21, 2026  
+**Status:** Prepared for filing (to be filed late January 2026)  
 **Priority Date:** January 7, 2026 (via this repository's first commit)  
 **Defensive Publication:** MIT  
 **Disclosures:** @Phibronotchi Jan 2026  
@@ -44,6 +44,6 @@ All extensions are unified under phyllotactic system principles per PPA embodime
 
 ## Status
 
-**Simulation-based; empirical validation required per provisional application prepared for filing Jan 21, 2026.**
+**Simulation-based; empirical validation required per provisional application prepared for filing (to be filed late January 2026).**
 
 Conceptual/educational only – not production-ready. Seeking partners for development under ethical model.
