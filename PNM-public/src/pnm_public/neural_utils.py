@@ -107,7 +107,8 @@ def crosstalk_matrix(positions: Tuple[np.ndarray, np.ndarray],
 
 def signal_to_crosstalk_ratio(positions: Tuple[np.ndarray, np.ndarray],
                               electrode_diameter_um: float = 50.0,
-                              tissue_conductivity_sm: float = 0.3) -> np.ndarray:
+                              tissue_conductivity_sm: float = 0.3,
+                              frequency_hz: float = 1000.0) -> np.ndarray:
     """
     Calculate signal-to-crosstalk ratio for each electrode.
     
@@ -115,11 +116,12 @@ def signal_to_crosstalk_ratio(positions: Tuple[np.ndarray, np.ndarray],
         positions: (x, y) tuple of electrode positions in micrometers
         electrode_diameter_um: Electrode diameter in micrometers
         tissue_conductivity_sm: Tissue conductivity in S/m
+        frequency_hz: Signal frequency in Hz
     
     Returns:
         SCR values in dB for each electrode
     """
-    crosstalk = crosstalk_matrix(positions, electrode_diameter_um, tissue_conductivity_sm)
+    crosstalk = crosstalk_matrix(positions, electrode_diameter_um, tissue_conductivity_sm, frequency_hz)
     
     # Signal is diagonal, crosstalk is off-diagonal sum
     signal = np.diag(crosstalk)

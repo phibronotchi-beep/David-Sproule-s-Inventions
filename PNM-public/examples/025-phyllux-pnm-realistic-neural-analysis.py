@@ -28,7 +28,7 @@ def main():
     crosstalk = crosstalk_matrix((x, y), electrode_diameter_um, tissue_conductivity_sm, frequency_hz)
     
     # Signal-to-crosstalk ratio
-    scr_db = signal_to_crosstalk_ratio((x, y), electrode_diameter_um, tissue_conductivity_sm)
+    scr_db = signal_to_crosstalk_ratio((x, y), electrode_diameter_um, tissue_conductivity_sm, frequency_hz)
     
     # Coverage analysis
     coverage = coverage_area((x, y), electrode_diameter_um)

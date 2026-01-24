@@ -32,16 +32,18 @@ def main():
     n_electrodes = 121
     electrode_diameter_um = 50.0
     min_spacing_um = 200.0
+    tissue_conductivity_sm = 0.3
+    frequency_hz = 1000.0  # 1 kHz neural signal frequency
     
     # Phyllotactic array
     x_phyl, y_phyl = phyllotactic_electrode_positions(n_electrodes, electrode_diameter_um, min_spacing_um)
-    crosstalk_phyl = crosstalk_matrix((x_phyl, y_phyl), electrode_diameter_um)
-    scr_phyl = signal_to_crosstalk_ratio((x_phyl, y_phyl), electrode_diameter_um)
+    crosstalk_phyl = crosstalk_matrix((x_phyl, y_phyl), electrode_diameter_um, tissue_conductivity_sm, frequency_hz)
+    scr_phyl = signal_to_crosstalk_ratio((x_phyl, y_phyl), electrode_diameter_um, tissue_conductivity_sm, frequency_hz)
     
     # Regular grid array (same number of electrodes, similar spacing)
     x_grid, y_grid = regular_grid_positions(n_electrodes, min_spacing_um)
-    crosstalk_grid = crosstalk_matrix((x_grid, y_grid), electrode_diameter_um)
-    scr_grid = signal_to_crosstalk_ratio((x_grid, y_grid), electrode_diameter_um)
+    crosstalk_grid = crosstalk_matrix((x_grid, y_grid), electrode_diameter_um, tissue_conductivity_sm, frequency_hz)
+    scr_grid = signal_to_crosstalk_ratio((x_grid, y_grid), electrode_diameter_um, tissue_conductivity_sm, frequency_hz)
     
     # Statistics
     off_diag_phyl = crosstalk_phyl.copy()
