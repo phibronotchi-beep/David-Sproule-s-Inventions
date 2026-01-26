@@ -2,7 +2,7 @@
 
 **David Edward Sproule**  
 Independent Inventor | Phyllux Technologies  
-Alberta, Canada
+Edmonton, Alberta, Canada
 
 **Email**: phibronotchi@gmail.com
 
